@@ -1,7 +1,7 @@
 import cv2
 import os
 
-dog_cascade = cv2.CascadeClassifier('cascade.xml')
+dog_cascade = cv2.CascadeClassifier('haarcascade_frontal_dog_face.xml')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 image_dir = os.path.join(BASE_DIR, "pets")
