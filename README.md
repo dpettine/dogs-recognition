@@ -21,7 +21,7 @@ Same procedure used for dogs classifier used but with more samples here (3K posi
 
 Also added last revision of my dog classifier, more accurate and with more samples (dog-cascade_40x40_rev2.xml)
 
-You can tweak the simple script provided for dog classifier (dogs.py) to test the latest classofoers and test if they work for you.
+You can tweak the simple script provided for dog classifier (dogs.py) to test the latest classifiers and see if they work for you.
 
 Good luck!
 
