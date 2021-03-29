@@ -15,3 +15,14 @@ To test it just download the full package on your computer.
 Run the dogs.py script. The sample pictures in the 'pets' directory will be processed. Pictures containing a dog face will be copied in the 'rec' subfolder with the ROI (Region Of Interest) evidenced with a rectangle.
 Some negative samples are included in the 'pets' dir to test the classifier robustness.
 
+[Mar 29 2021]
+added a cat HAAR weak classifier trained to detect cat faces (file name: cat_cascade_40x40_rev2.xml).
+Same procedure used for dogs classifier used but with more samples here (3K positives samples, 9K negatives)
+
+Also added last revision of my dog classifier, more accurate and with more samples (dog-cascade_40x40_rev2.xml)
+
+You can tweak the simple script provided for dog classifier (dogs.py) to test the latest classofoers and test if they work for you.
+
+Good luck!
+
+
